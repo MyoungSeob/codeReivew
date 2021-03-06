@@ -10,5 +10,5 @@
 # u = up, d = down, h= high  
 u, d, h = map(int, input().split())
 day = (h-d)/(u-d)
-
+# 우리 달팽이 친구는 자면서도 흘러내리기 때문에, h에서 d를 빼주지 않으면 한번 더 올라갈 수 있어요
 print(int(day) if day == int(day) else int(day)+1)
